@@ -1,3 +1,7 @@
+mod adapters;
+mod business_logic;
+mod config;
+
 use actix_web::middleware::Logger;
 use actix_web::{get, App, HttpResponse, HttpServer, Responder};
 use serde_json::json;
